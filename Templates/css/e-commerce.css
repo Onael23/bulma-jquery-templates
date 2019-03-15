@@ -1,0 +1,47 @@
+body{
+    font-family: 'Andika', sans-serif;
+}
+
+.hero.is-info {
+
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('../img/pexels-photo-871495.jpeg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.icon{
+    color: white;
+}
+
+a:hover{
+    border-bottom: ridge white 0.19rem;
+}
+
+#quote{
+    font-family: 'Andika', sans-serif;
+}
+
+.has-item-centered{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item img{
+    max-height: 120px;
+}
+#logo{
+    margin-top: 95px;
+}
+
+.has-element-at-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

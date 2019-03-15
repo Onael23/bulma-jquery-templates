@@ -1,0 +1,4 @@
+.has-item-centered {
+    display: flex;
+    justify-content: center;
+}

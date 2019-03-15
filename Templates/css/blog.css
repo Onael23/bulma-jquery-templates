@@ -1,0 +1,25 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(-120deg,#dadae44d, #fff, #dadae44d);
+}
+.box:hover{
+    box-shadow: 4px 4px 15px #1964ae;
+}
+footer{
+    margin-top: 50px;
+}
+
+.has-item-centered{
+    display: flex;
+    justify-content: center;
+}
+
+nav.navbar{
+    box-shadow: 4px 0px 7px #1964ae;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.grad{
+    background: linear-gradient(-120deg,#021B79, #0575E6, #205E9B);
+}

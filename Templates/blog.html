@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bulma.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/blog.css" />
+    <script src="js/jquery-3.3.1.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <nav class="navbar has-text-white is-fixed-top" role="navigation">
+        <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="navbarMobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="navbarMobile" class="navbar-menu">
+            <ul class="navbar-end">
+                <li class="navbar-item"><a href="#">
+                        <span class="icon">
+                            <i class="fas fa-exclamation"></i>
+                        </span>
+                        <span>About me</span>
+                    </a></li>
+                <li class="navbar-item"><a href="#">
+                        <span class="icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                        <span>Services</span>
+                    </a></li>
+                <li class="navbar-item"><a href="#">
+                        <span class="icon">
+                            <i class="fas fa-th-list"></i>
+                        </span>
+                        <span>Portfolio</span>
+                    </a></li>
+                <li class="navbar-item"><a href="#about">
+                        <span class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span>Contact</span>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container hero is-fullheight">
+        <span class="has-text-centered">
+            <h1 class="title is-3">My Blog</h1>
+        </span>
+
+        <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+                <button class="button is-link is-outlined" aria-haspopup="true" aria-controls="dropdown-menu4">
+                    <span>Sort by</span>
+                    <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                <div class="dropdown-content">
+                    <div class="dropdown-item">
+                        <a href="#" class="dropdown-item">
+                            Most recent
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            Most Previous
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <a href="#">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="img/thugga.jpeg" alt="Image">
+                                </figure>
+                                
+                            </div>
+                            <div class="media-content">
+                                <span class="title is-4">5 tips to stay safe on internet</span>
+                                <p>Hacking, identiy ursupation, manipulation .. you may already have heard a
+                                    story about ...
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="#">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="img/thugga.jpeg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <span class="title is-4">Bulma vs Bootstrap</span>
+                                <p>Two powerful frameworks. With both, you can make beautiful and reponsive website but ...</p>
+                            </div>
+                        </article>
+                    </div>
+                </a>
+            </div>
+            <div class="column">
+                <a href="#">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="img/thugga.jpeg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <span class="title is-4">Become a fullstack dev</span>
+                                <p>Html, CSS, Javascript, Jquery, Mango, Laravel, Nodejs, angular, VueJS ...</p>
+                            </div>
+                        </article>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-three-fifths"><a href="#">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="img/thugga.jpeg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <span class="title is-4">How can you use internet for your business ?</span>
+                                <p>Internet marketing will help you in improving your business brand visibility, traffic and sales. Below are the top 5 reasons why internet marketing is important for your business. To increase the visibility ...</p>
+                            </div>
+                        </article>
+                    </div>
+                </a></div>
+            <div class="column"><a href="#">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="img/thugga.jpeg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <span class="title is-4">Don't sacrifice your sleep</span>
+                                <p>The most part of developers have sleeping disorders. But why ? ..</p>
+                            </div>
+                        </article>
+                    </div>
+                </a></div>
+        </div>
+        <span>
+            <nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
+                <a class="pagination-previous" title="This is the first page" disabled>Previous</a>
+
+                <ul class="pagination-list">
+                    <li>
+                        <a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a>
+                    </li>
+                    <li>
+                        <a class="pagination-link" aria-label="Goto page 2">2</a>
+                    </li>
+                    <li>
+                        <a class="pagination-link" aria-label="Goto page 3">3</a>
+                    </li>
+                </ul>
+                <a class="pagination-next">Next page</a>
+            </nav>
+        </span>
+    </section>
+
+    <footer class="footer hero is-link grad has-item-centered">
+        <div class="container has-text-centered">
+            Made with <i class="fas fa-heart"></i> by KolaWole Mangabo.
+        </div>
+        <span class="media has-item-centered">
+            <a class="button is-white is-outlined is-round" href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a class="button is-white is-outlined is-round" href="#">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a class="button is-white is-outlined is-round" href="#">
+                <i class="fab fa-linkedin-in    "></i>
+            </a>
+            <a class="button is-white is-outlined is-round" href="#">
+                <i class="fab fa-codepen"></i>
+            </a>
+            <a class="button is-white is-outlined is-round" href="#">
+                <i class="fab fa-github"></i>
+            </a>
+
+        </span>
+    </footer>
+</body>
+
+</html>

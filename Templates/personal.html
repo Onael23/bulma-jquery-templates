@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello, That's my personal website</title>
+  <link rel="stylesheet" href="css/bulma.css" />
+  <link rel="stylesheet" href="css/personal.css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+  <nav class="navbar is-fixed-top has-text-white" role="navigation">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarMobile">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div id="navbarMobile" class="navbar-menu">
+      <ul class="navbar-end">
+        <li class="navbar-item"><a href="#about">
+            <span class="icon">
+              <i class="fas fa-exclamation"></i>
+            </span>
+            <span>About me</span>
+          </a></li>
+        <li class="navbar-item"><a href="#services">
+            <span class="icon">
+              <i class="fas fa-bars"></i>
+            </span>
+            <span>Services</span>
+          </a></li>
+        <li class="navbar-item"><a href="#portfolio">
+            <span class="icon">
+              <i class="fas fa-th-list"></i>
+            </span>
+            <span>Portfolio</span>
+          </a></li>
+        <li class="navbar-item"><a href="#contact">
+            <span class="icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span>Contact</span>
+          </a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Section header-->
+
+  <section class="hero grad is-link is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h2 class="title is-2 textitre">
+          Hello,
+        </h2>
+        <h2 class="subtitle is-4 textitre">
+          I am Kolawole Mangabo
+        </h2>
+        <div class="container has-item-centered">
+          <figure class="image is-128x128">
+            <img src="img/mf-avatar.svg" id="thisisme" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <span class="has-item-centered">
+      <figure class="image is-48x48">
+        <a href="#">
+          <img src="img/arrow.svg" id="arrow" alt="">
+        </a>
+      </figure>
+    </span>
+  </section>
+
+  <!--Section About-->
+
+  <section class="container" id="about">
+    <div class="container-heading has-text-centered">
+      <span class="has-item-centered">
+        <h1 class="title is-3">About me</h1>
+      </span>
+      <p class="subtitle is-5">I am a student at Pigier-Benin.<br>I have 2 years experience in <strong>web developement</strong>
+        and <strong>mobile app development</strong><br>I always try to find a new way to see things and make it
+        perfect.</p>
+    </div>
+    <div class="columns is-desktop">
+      <div class="column">
+        <div class="card has-equal-height">
+          <span class="card-header has-item-centered">
+            <h4 class="title is-4">Profile</h4>
+          </span>
+          <div class="card-content has-equal-height">
+            <p class="margin-down40"><span class="title is-6">Name :</span> Mangabo Kolawole </p>
+            <p class="margin-down40"><span class="title is-6">Adress :</span> Namek, Planet 456 </p>
+            <p class="margin-down40"><span class="title is-6">Email :</span>simpsons@namekmail.com</p>
+            <span class="button is-link is-outlined">
+              <i class="fab fa-twitter"></i>
+              Twitter
+            </span>
+            <span class="button is-link is-outlined">
+              <i class="fab fa-github"></i>
+              Github
+            </span>
+            <span class="button is-link is-outlined">
+              <i class="fab fa-codepen"></i>
+              Codepen
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card has-item-centered has-equal-height has-element-at-center">
+          <figure class="image is-128x128 card-content">
+            <img src="img/mf-avatar.svg" alt="" sizes="" srcset="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card has-equal-height">
+          <span class="card-header has-item-centered">
+            <p class="title is-4 card-header">My skills</p>
+          </span>
+          <div class="card-content" id="progress">
+            HTML5/CSS3<progress class="progress is-small is-link" value="85" max="100"></progress>
+            Django<progress class="progress is-small is-link" value="87" max="100">45%</progress>
+            AngularJS<progress class="progress is-small is-link" value="75" max="100">45%</progress>
+            DataBase<progress class="progress is-small is-link" value="79" max="100">45%</progress>
+            Xamarin<progress class="progress is-small is-link" value="70" max="100">45%</progress>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Services -->
+  <section class="container" id="services">
+    <div class="section-heading has-text-centered">
+      <span class="has-item-centered">
+        <h1 class="title is-3">Services</h1>
+      </span>
+      <h4 class="subtitle is-5">What can I do for you ?</h4>
+    </div>
+    <div class="container has-text-centered">
+      <div class="columns">
+        <div class="column">
+          <div class="box has-item-centered">
+            <div class="content">
+              <h4 class="title is-6">Web Development</h4>
+              <span class="has-item-centered">
+                <figure class="image is-96x96">
+                  <img src="img/web.svg" alt="">
+                </figure>
+              </span>
+              Using tools like AngularJS or Reactjs I can quickly buidl solid frontend interfaces.<br>
+              You also want me to work backend. Django/NodeJS/Laravel.
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Mobile App</h4>
+              <span class="has-item-centered">
+                <figure class="image is-96x96">
+                  <img src="img/app-development.svg" alt="">
+                </figure>
+              </span>
+              You have a great idea and you want <br>
+              a mobile app interface for it on every OS (Android, iOS, Windows Phone etc) Then you are welcome.
+              My guns are : Ionic or Xamarin.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">SEO</h4>
+              <span class="has-item-centered">
+                <figure class="image is-96x96">
+                  <img src="img/research.svg" alt="">
+                </figure>
+              </span>
+              Because people are trying to find you in internet is important.
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Teaching</h4>
+              <span class="has-item-centered">
+                <figure class="image is-96x96">
+                  <img src="img/teaching.svg" alt="">
+                </figure>
+              </span>
+              I used to give a lot of formaton. Both online or at a place.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Section Portfolio-->
+
+  <section class="section has-text-centered" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <span class="has-item-centered">
+          <h1 class="title is-3">Portfolio</h1>
+        </span>
+        <h4 class="subtitle is-5">What I've already done</h4>
+      </div>
+      <div class="columns has-item-centered">
+        <div class="column is-6">
+          <div class="card">
+            <div class="card-content has-item-centered">
+              <figure class="image">
+                <img src="img/Screenshot-2019-1-3 Hello Bulma (1).png" alt="" srcset="">
+              </figure>
+            </div>
+            <span class="text">View the site.</span>
+          </div>
+          <div class="card">
+            <div class="card-content has-item-centered">
+              <figure class="image">
+                <img src="img/Screenshot-2019-1-3 Hello Bulma (1).png" alt="" srcset="">
+              </figure>
+            </div>
+            <p>A website for ... </p>
+          </div>
+          <div class="card">
+            <div class="card-content has-item-centered">
+              <figure class="image">
+                <img src="img/Screenshot-2019-1-3 Hello Bulma (1).png" alt="" srcset="">
+              </figure><br>
+            </div>
+            <p>A website for ... </p>
+          </div>
+          <div>
+            <a class="button is-link is-outlined" href="#">
+              <span class="icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span>View more !</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact-->
+  <section class="section has-text-centered" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <span class="has-item-centered">
+          <h1 class="title is-3">Contact</h1>
+        </span>
+        <p>Interested ? Contact me</p>
+      </div>
+      <div class="columns has-item-centered">
+        <div class="column is-6 is-offest-3 has-item-centered" id="fields">
+          <div class="box">
+            <div class="field">
+              <span class="title is-5">Name</span>
+              <p class="control">
+                <input name="name" type="text" class="input" placeholder="ex:Firmin">
+              </p>
+            </div>
+            <div class="field">
+              <span class="title is-5">Email</span>
+              <p class="control has-icons-left has-icons-right">
+                <input class="input" type="email" placeholder="Email">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div class="field">
+              <span class="title is-5">Message</span>
+              <div class="control">
+                <textarea class="textarea " placeholder="What you want to tell me"></textarea>
+              </div>
+            </div>
+            <div class="field has-item-centered">
+              <div class="control">
+                <input class="button is-link is-outlined" type="submit" placeholder="Submit" value="Submit">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+
+  <footer class="footer hero is-link grad has-item-centered">
+    <div class="container has-text-centered">
+      Made with <i class="fas fa-heart"></i> by KolaWole Mangabo.
+    </div>
+    <span class="media has-item-centered">
+      <a class="button is-white is-outlined is-round" href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="button is-white is-outlined is-round" href="#">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a class="button is-white is-outlined is-round" href="#">
+        <i class="fab fa-linkedin-in    "></i>
+      </a>
+      <a class="button is-white is-outlined is-round" href="#">
+        <i class="fab fa-codepen"></i>
+      </a>
+      <a class="button is-white is-outlined is-round" href="#">
+        <i class="fab fa-github"></i>
+      </a>
+
+    </span>
+  </footer>
+
+  <script>
+    //on affiche les textes d'abord
+    $('.textitre').hide();
+    $('.textitre').fadeIn(1000);
+    //on affiche ensuite les images
+    $('#thisisme').hide(1500);
+    $('#thisisme').fadeIn(900);
+    $('#arrow').hide(1500);
+    $('#arrow').fadeIn(1000);
+    $('html body section#about.container div.columns.is-desktop div.column div.card.has-equal-height div.card-content.has-equal-height').hide(100).slideToggle(1000);
+
+    //Automatically fill the progress bar
+    /*
+    var progress = $('#progress');
+    var child = progress.lastChild;
+
+    while(child){
+      if (child.nodeType !== 1){
+        var value = child.val();
+        var index = 0;
+        while(index <= value){
+          child.val(index);
+
+          index += 1;
+        } 
+      }
+      child = child.nextSlibing;
+    }
+    */
+
+    var value = $('progress').val();
+    var index = 0;
+    console.log(value);
+    while(index < value.length){
+      child = value[index];

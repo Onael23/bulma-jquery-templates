@@ -1,0 +1,54 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(-120deg,#dadae44d, #fff, #dadae44d);
+}
+
+.has-item-centered{
+    display: flex;
+    justify-content: center;
+}
+
+#about, #contact, #services, #portfolio{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.has-equal-height{
+    height: 100%; 
+}
+.has-element-at-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-down40{
+    margin-bottom: 20%;
+}
+nav,section,footer{
+    border-radius: 10px;
+}
+div,span{
+    border-radius:15px;
+}
+.column,.card{
+    margin-bottom: 15px;
+}
+
+section div{
+    margin-bottom: 5%;
+}
+section.hero.is-link.is-fullheight{
+    margin-bottom: 70px;
+}
+h1{
+    width: 20%;
+    border-radius: 3px;
+    box-shadow: 0.1rem 0.1rem 0.1rem grey;
+}
+.grad{
+    background: linear-gradient(-120deg,#021B79, #0575E6, #205E9B);
+}
+
+body section.hero.grad.is-link.is-fullheight span.has-item-centered{
+    margin-bottom: 80px;
+}
